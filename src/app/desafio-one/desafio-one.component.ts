@@ -7,9 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DesafioOneComponent implements OnInit {
 
-  constructor() { }
+  public pesosForm;
+  
+  public salvarPeso(){
+    var dados = [];
 
+    dados.push(this.pesosForm)
+
+    console.log(dados)
+
+    localStorage.setItem('pesos', JSON.stringify(dados));
+  }
+  constructor() {
+  }
+  
   ngOnInit(): void {
   }
+  
 
 }
