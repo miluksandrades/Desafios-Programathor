@@ -1,27 +1,83 @@
-# DesafioProgramathor
+# Desafios
+Os seguintes desafios tem como objetivo melhorar as habilidades no desenvolvimento web e claro na falta de idéias, usar esses pequenos projetos é um boa iniciativa para conhecer novas tecnologias.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
+Fonte Original: [Flavio Copes](https://flaviocopes.com/sample-app-ideas/)
+#### Um aplicativo registrador de peso
+- [ ] Aceita um conjunto de entradas manuais de medições de peso realizadas em datas diferentes
+- [ ] Pode traçar um gráfico
+- [ ] Pode permitir que você rastreie várias entidades, por exemplo, o peso de mais de uma pessoa.
+- [ ] Armazena os pesos em algum lugar
 
-## Development server
+#### Um banco de dados de livros
+- [ ] Insira os livros que você possui
+- [ ] Insira os livros que você gostaria de comprar
+- [ ] Armazene as informações e imagens do livro
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### Um aplicativo de receitas
+- [ ] Digite um nome e uma descrição com as etapas
+- [ ] Tem fotos
+- [ ] Tem algum ranking para dificuldade e qualidade
+- [ ] Adicione o tempo necessário
+- [ ] Tem etapas diferentes com uma foto para cada
+- [ ] Guarde-os em algum lugar
 
-## Code scaffolding
+#### Um registrador de contas
+- [ ] Registrar contas, valores e datas
+- [ ] Tenha alguns gráficos (este ano / ano passado)
+- [ ] Listar contas
+- [ ] Guarde-os em algum lugar
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### Um registrador de despesas
+- [ ] Registre as despesas e marque-as (ou tenha categorias)
+- [ ] Listar despesas
+- [ ] Tenha alguns gráficos (último mês / ano passado)
+- [ ] Guarde-os em algum lugar
 
-## Build
+#### Um aplicativo de chat
+- [ ] As pessoas entram sem autenticação e recebem um nome, armazenado para quando voltam
+- [ ] Armazene o histórico
+- [ ] Adicionar notificações
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+#### Um aplicativo de notas
+- [ ] Adicione uma nova nota
+- [ ] Listar todas as suas anotações na barra lateral
+- [ ] Guarde-os em algum lugar
 
-## Running unit tests
+#### Um aplicativo de diário pessoal
+- [ ] Adicionar entradas com data e texto
+- [ ] Mostrar mais recentes primeiro
+- [ ] Anexar imagens
+- [ ] Guarde-os em algum lugar
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### Um aplicativo pomodoro
+- [ ] Digite um horário
+- [ ] Iniciar temporizador
+- [ ] Alerta quando o tempo acabar
 
-## Running end-to-end tests
+#### Um gerador de memes
+- [ ] Tem 10 imagens memes populares
+- [ ] Deixe o usuário adicionar o texto
+- [ ] Resultado é imagem + texto
+- [ ] Armazene o histórico
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+#### Jogo-da-velha
+- [ ] Vamos lá,  você sabe como funciona.
 
-## Further help
+#### Um blog engine
+- [ ] Permitir que o usuário faça o login e adicione postagens
+- [ ] Os visitantes podem adicionar comentários
+- [ ] Armazene os dados em algum lugar
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+#### Um QA engine
+- [ ] Permitir que o usuário faça o login
+- [ ] Adicione perguntas
+- [ ] Responder a perguntas
+- [ ] Permitir que o usuário original escolha a melhor pergunta
+
+# Aplicativos com tecnologia de API
+
+# ...
+
+Espero que esta pequena lista possa ajudar cada um de vocês a colocar o conhecimento em prática! Lembre-se que cada um dos itens presentes neste artigo são apenas um ponto de partida e que você poderá criar muito mais em cima deles. Se tiver algum projeto interessante em mente, compartilhe conosco nos comentários.
+
+Após completar os desafios práticos mais difíceis, você está pronto para conseguir um emprego! Acesse a ProgramaThor, uma stratup focada no recrutamento de desenvolvedores. Para se candidatar às vagas e receber notificações em casos de matching, basta de cadastrar e completar seu perfil corretamente.

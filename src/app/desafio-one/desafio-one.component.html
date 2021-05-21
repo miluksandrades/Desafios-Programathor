@@ -1,18 +1,6 @@
 <br>
 <div class="container-fluid">
   <div class="row">
-    <div class="col-5">
-      <h5 class="h5">Desafio 1</h5>
-      <p>O objetivo desse desafio é criar um app que registra o peso com as seguintes especificações:</p>
-      <ul>
-        <li>Aceita um conjunto de entradas manuais de medições de peso realizadas em datas
-          diferentes;</li>
-        <li>Pode permitir que você rastreie várias entidades, por exemplo, o peso de mais de uma
-          pessoa;</li>
-        <li>Armazena os pesos em algum lugar.</li>
-        <li>Pode traçar um gráfico;</li>
-      </ul>
-    </div>
     <div class="col-7">
       <div class="container">
         <h5 class="h5">Registro de Peso</h5>
@@ -21,8 +9,8 @@
             <form action="">
               <div class="form-group">
                 <input type="text" class="form-control" name="peso" [(ngModel)]="pesosForm">
+                <button class="btn mt-3 col-12 btn-success" (click)="salvarPeso()">Salvar</button>
               </div>
-              <button class="btn btn-block btn-sm btn-success" type="submit" (click)="salvarPeso()">Salvar</button>
             </form>
           </div>
         </div>

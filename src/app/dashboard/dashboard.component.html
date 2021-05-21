@@ -1,26 +1,10 @@
 <div class="container">
-  <div class="row">
-    <div class="col-xl-4" routerLink="/desafio-one">
+  <div class="row mt-3">
+    <div class="col-lg-4 col-md-4 col-sm-12 mb-3" *ngFor="let item of desafios" routerLink="{{item.route}}">
       <div class="card">
           <div class="card-body">
-              <h5 class="card-title">Desafio 1</h5>
-            
-          </div>
-      </div>
-    </div>
-    <div class="col-xl-4" routerLink="/desafio-two">
-      <div class="card">
-          <div class="card-body">
-              <h5 class="card-title">Desafio 2</h5>
-
-          </div>
-      </div>
-    </div>
-    <div class="col-xl-4" routerLink="/desafio-three">
-      <div class="card">
-          <div class="card-body">
-              <h5 class="card-title">Desafio 3</h5>
-
+              <h5 class="card-title">{{item.task}}</h5>
+              <p class="card-text">{{item.description}}</p>
           </div>
       </div>
     </div>
