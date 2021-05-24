@@ -1,21 +1,24 @@
-<br>
-<div class="container-fluid">
+<div class="container-fluid mt-3">
   <div class="row">
     <div class="col-7">
       <div class="container">
-        <h5 class="h5">Registro de Peso</h5>
         <div class="row">
-          <div class="col-xl-6">
-            <form action="">
-              <div class="form-group">
-                <input type="text" class="form-control" name="peso" [(ngModel)]="pesosForm">
-                <button class="btn mt-3 col-12 btn-success" (click)="salvarPeso()">Salvar</button>
+          <div class="col-xl-8">
+            <form action="" class="mb-3">
+              <div class="container text-center form-group col-xl-7">
+                <label class="h5 text-center">Registro de Peso</label>
+                <input type="text" class="form-control" name="lista" id="lista" [(ngModel)]="dado">
+                <button class="btn mt-3 col-12 btn-success" type="submit" (click)="createForm()">Salvar</button>
               </div>
             </form>
+            <div class="mb-3">
+              <canvas baseChart [datasets]="barChartData" [labels]="barChartLabels" [options]="barChartOptions"
+                [colors]="barColors" [legend]="barChartLegend" [chartType]="barChartType">
+              </canvas>
+            </div>
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </div>
