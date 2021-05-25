@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FilmesService } from '../services/filmes.service';
 
 @Component({
   selector: 'app-desafio-two',
@@ -7,18 +8,37 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DesafioTwoComponent implements OnInit {
 
-  public lista = [
-    { id: 1, autor: 'Lars Kepler', titulo: 'Stalker: Da série Joona Linna',
-     imagem: 'https://m.media-amazon.com/images/I/41OpXkfazYL.jpg', situacao: 1 },
-    { id: 1, autor: 'Lars Kepler', titulo: 'O homem de areia: Da série Joona Linna',
-     imagem: 'https://images-na.ssl-images-amazon.com/images/I/41lGOj279cL._SX319_BO1,204,203,200_.jpg', situacao: 1 },
-    { id: 1, autor: 'Lars Kepler', titulo: 'O caçador: Da série Joona Linna',
-     imagem: 'https://m.media-amazon.com/images/P/B08HW7SBKZ.01._SCLZZZZZZZ_SX500_.jpg', situacao: 1 },
-    { id: 1, autor: 'SØREN SVEISTRUP', titulo: 'As sombras de outubro',
-     imagem: 'https://m.media-amazon.com/images/P/B07XTQ1ZFY.01._SCLZZZZZZZ_SX500_.jpg', situacao: 1 },
-  ]
+  public meusLivros: any;
+  public listaDesejos: any;
 
-  constructor() { }
+  public livro = {
+    autor: '',
+    titulo: '',
+    imagem: '',
+    situacao: 0
+  }
+
+  constructor(private api: FilmesService) {
+    this.api.getMeusFilmes().subscribe(res => {
+      this.meusLivros = res
+    })
+    this.api.getListaDesejos().subscribe(res => {
+      this.listaDesejos = res
+    })
+  }
+
+  createLivro() {
+    let livro = {
+      autor: this.livro.autor,
+      titulo: this.livro.titulo,
+      imagem: this.livro.imagem,
+      situacao: this.livro.situacao,
+    }
+
+    this.api.createLivro(livro).subscribe(res =>{
+      console.log(res);
+    })
+  }
 
   ngOnInit(): void {
   }

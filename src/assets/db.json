@@ -1,0 +1,60 @@
+{
+  "filmes": [
+    {
+      "id": 1,
+      "autor": "Lars Kepler",
+      "titulo": "Stalker: Da série Joona Linna",
+      "imagem": "https://m.media-amazon.com/images/I/41OpXkfazYL.jpg",
+      "situacao": 1
+    },
+    {
+      "id": 2,
+      "autor": "Lars Kepler",
+      "titulo": "O homem de areia: Da série Joona Linna",
+      "imagem": "https://images-na.ssl-images-amazon.com/images/I/41lGOj279cL._SX319_BO1,204,203,200_.jpg",
+      "situacao": 1
+    },
+    {
+      "id": 3,
+      "autor": "Lars Kepler",
+      "titulo": "O caçador: Da série Joona Linna",
+      "imagem": "https://m.media-amazon.com/images/P/B08HW7SBKZ.01._SCLZZZZZZZ_SX500_.jpg",
+      "situacao": 2
+    },
+    {
+      "id": 4,
+      "autor": "SØREN SVEISTRUP",
+      "titulo": "As sombras de outubro",
+      "imagem": "https://m.media-amazon.com/images/P/B07XTQ1ZFY.01._SCLZZZZZZZ_SX500_.jpg",
+      "situacao": 2
+    },
+    {
+      "autor": "Lars Kepler",
+      "titulo": "Sheldon Cooper",
+      "imagem": "https://m.media-amazon.com/images/I/41OpXkfazYL.jpg",
+      "situacao": 1,
+      "id": 6
+    },
+    {
+      "autor": "Sheldon Cooper",
+      "titulo": "Sheldon Cooper",
+      "imagem": "https://m.media-amazon.com/images/I/41OpXkfazYL.jpg",
+      "situacao": 2,
+      "id": 7
+    },
+    {
+      "autor": "Mauricio Aniche",
+      "titulo": "Orientação a Objetos e SOLID para Ninjas: Projetando classes flexíveis",
+      "imagem": "https://m.media-amazon.com/images/P/B019OU0G5U.01._SCLZZZZZZZ_SX500_.jpg",
+      "situacao": "2",
+      "id": 8
+    },
+    {
+      "autor": "Robert C. Martin",
+      "titulo": "Arquitetura Limpa: O guia do artesão para estrutura e design de software",
+      "imagem": "https://m.media-amazon.com/images/P/B085PP6Y8P.01._SCLZZZZZZZ_SX500_.jpg",
+      "situacao": "1",
+      "id": 9
+    }
+  ]
+}

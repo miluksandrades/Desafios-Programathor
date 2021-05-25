@@ -8,6 +8,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ChartsModule } from 'ng2-charts';
 import { DesafioTwoComponent } from './desafio-two/desafio-two.component';
+import { HttpClientModule } from '@angular/common/http';;
+import { FilmesService } from './services/filmes.service'
 
 @NgModule({
   declarations: [
@@ -21,9 +23,12 @@ import { DesafioTwoComponent } from './desafio-two/desafio-two.component';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    ChartsModule
+    ChartsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    FilmesService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
