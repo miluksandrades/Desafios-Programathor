@@ -1,0 +1,54 @@
+{
+  "receitas": [{
+      "id": 1,
+      "titulo": "NACHOS MEXICANOS",
+      "tempo": 40,
+      "image": "https://img.itdg.com.br/tdg/images/recipes/000/012/216/333845/333845_original.jpg?mode=crop&width=540&height=400",
+      "porcoes": 6,
+      "ingredientes": [
+        "1 kg de carne moída",
+        "5 colheres de sopa de óleo",
+        "1 cebola grande ralada"
+      ],
+      "preparo": [
+        "Para o preparo do sour cream, bata no liquidificar o creme de leite, o cream cheese, o vinagre e o limão.",
+        "Reserve.",
+        "Coloque numa panela o óleo a cebola e o alho e doure, em seguida acrescente a carne moída e frite bem.",
+        "Então coloque os temperos do seu gosto, o sal, o molho inglês e a pimenta chilli.",
+        "Depois de preparada a carne, forre uma travessa com o doritos, coloque a carne por cima, depois o sour cream e por último o queijo cheddar.",
+        "Coloque no forno por cerca de 15 minutos numa temperatura de cerca de 180º graus.",
+        "Está pronto.",
+        "É uma comida apimentada, deliciosa! Não esqueça, o segredo da receita é a pimenta chilli, que é uma iguaria mexicana."
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "NACHOS CANADENSES",
+      "tempo": 40,
+      "porcoes": 6,
+      "image": "https://img.itdg.com.br/tdg/images/recipes/000/012/216/325609/325609_original.jpg?mode=crop&width=540&height=400",
+      "ingredientes": [
+        "1 kg de carne moída",
+        "5 colheres de sopa de óleo",
+        "1 cebola grande ralada",
+        "5 dentes de alho amassados",
+        "2 pacotes de Doritos (grande)",
+        "200 g de queijo cheddar (aquele de bisnaga)",
+        "1 colher e 1/2 de sopa bem cheias de pimenta chilli",
+        "3 colheres de sopa de molho inglês",
+        "Sal e temperos como ervas finas, manjerona e outros, a gosto"
+      ],
+      "preparo": [
+        "Para o preparo do sour cream, bata no liquidificar o creme de leite, o cream cheese, o vinagre e o limão.",
+        "Reserve.",
+        "Coloque numa panela o óleo a cebola e o alho e doure, em seguida acrescente a carne moída e frite bem.",
+        "Então coloque os temperos do seu gosto, o sal, o molho inglês e a pimenta chilli.",
+        "Depois de preparada a carne, forre uma travessa com o doritos, coloque a carne por cima, depois o sour cream e por último o queijo cheddar.",
+        "Coloque no forno por cerca de 15 minutos numa temperatura de cerca de 180º graus.",
+        "Está pronto.",
+        "É uma comida apimentada, deliciosa! Não esqueça, o segredo da receita é a pimenta chilli, que é uma iguaria mexicana."
+      ]
+    }
+
+  ]
+}

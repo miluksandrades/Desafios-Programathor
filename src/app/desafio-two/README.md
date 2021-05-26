@@ -8,3 +8,6 @@ O objetivo desse desafio é criar um app que registra livros com as seguintes es
 #### Funções Utilizadas
 - ReactiveForms
 - JSON-server
+
+Para rodar os dados é necessário executar o comando:
+<code>json-server --watch /src/assets/db.json</code>

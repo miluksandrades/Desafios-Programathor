@@ -6,16 +6,26 @@ import { HttpClient } from '@angular/common/http'
 })
 export class FilmesService {
 
+  public url = 'http://localhost:3000/'
+
   constructor(private http: HttpClient) { }
 
+  getReceitas(){
+    return this.http.get(`${this.url}receitas`);
+  }
+
+  getReceitaById(id){
+    return this.http.get(`${this.url}receitas?id=${id}`);
+  }
+
   getMeusFilmes(){
-    return this.http.get('http://localhost:3000/filmes?situacao=1')
+    return this.http.get(`${this.url}filmes?situacao=1`);
   }
   getListaDesejos(){
-    return this.http.get('http://localhost:3000/filmes?situacao=2')
+    return this.http.get(`${this.url}filmes?situacao=2`);
   }
 
   createLivro(data){
-    return this.http.post('http://localhost:3000/filmes', data)
+    return this.http.post(`${this.url}filmes`, data);
   }
 }

@@ -9,14 +9,18 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ChartsModule } from 'ng2-charts';
 import { DesafioTwoComponent } from './desafio-two/desafio-two.component';
 import { HttpClientModule } from '@angular/common/http';;
-import { FilmesService } from './services/filmes.service'
+import { FilmesService } from './services/filmes.service';
+import { DesafioThreeComponent } from './desafio-three/desafio-three.component';
+import { ReceitaViewComponent } from './desafio-three/receita-view/receita-view.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     DesafioOneComponent,
     DashboardComponent,
-    DesafioTwoComponent
+    DesafioTwoComponent,
+    DesafioThreeComponent,
+    ReceitaViewComponent
   ],
   imports: [
     BrowserModule,

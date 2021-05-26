@@ -1,0 +1,16 @@
+<div class="container-fluid">
+
+  <div class="row mt-3">
+    <div class="col-xl-3" *ngFor="let item of receitas">
+      <div class="card" >
+        <img src="{{item.image}}" alt="" class="card-img">
+        <div class="card-body">
+          <h5 class="card-title">{{item.titulo}}</h5>
+          <p class="card-text">Tempo de preparo: {{item.tempo}} min</p>
+          <p class="card-text">{{item.porcoes}} porções</p>
+          <a [routerLink]="['/desafio-three', item.id]"><button class="btn btn-warning">Ver mais</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

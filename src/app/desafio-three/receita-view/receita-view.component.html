@@ -1,0 +1,37 @@
+<div class="cotainer-fluid">
+  <div class="container mt-3" *ngFor="let item of receita">
+    <a [routerLink]="[ '/desafio-three' ]">
+        <button class="btn btn-sm mb-3 btn-outline-primary">Voltar</button>
+    </a>
+    <div class="card mb-3">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-xl-6 col-md-6 col-sm-12">
+            <img src="{{item.image}}" width="" alt="" class="img-fluid">
+          </div>
+          <div class="col-xl-6 col-md-6 col-sm-12">
+            <h5 class="card-title text-danger fw-bold">{{item.titulo}}</h5>
+            <label class="text-danger fw-bold">Tempo de preparo:</label>
+            {{item.tempo}} min
+            <br>
+            <label class="text-danger fw-bold">Rendimento:</label>
+            {{item.porcoes}} Porções
+            <br>
+            <h5 class="card-title text-danger fw-bold mt-3">Ingredientes</h5>
+            <ul>
+              <li *ngFor="let ingrediente of item.ingredientes">{{ingrediente}}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Modo de Preparo</h5>
+        <ul>
+          <li *ngFor="let preparo of item.preparo">{{preparo}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
