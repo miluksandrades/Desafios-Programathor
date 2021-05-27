@@ -1,5 +1,6 @@
 {
-  "receitas": [{
+  "receitas": [
+    {
       "id": 1,
       "titulo": "NACHOS MEXICANOS",
       "tempo": 40,
@@ -48,7 +49,42 @@
         "Está pronto.",
         "É uma comida apimentada, deliciosa! Não esqueça, o segredo da receita é a pimenta chilli, que é uma iguaria mexicana."
       ]
+    },
+    {
+      "titulo": "ALMÔNDEGA AO MOLHO DE TOMATE - RÁPIDA, PRÁTICA E GOSTOSA",
+      "tempo": 20,
+      "porcoes": 4,
+      "image": "https://img.itdg.com.br/tdg/images/recipes/000/080/799/98762/98762_original.jpg?mode=crop&width=710&height=400",
+      "ingredientes": [
+        "Almôndega:",
+        "500g de carne moída (coxão mole)",
+        "2 ovos",
+        "3 colheres (sopa) de farinha de rosca",
+        "1/2 cebola picada",
+        "sal e pimenta a gosto",
+        "Molho:",
+        "1/2 cebola picada",
+        "1/2 alho picado",
+        "3 colheres (sopa) óleo",
+        "1 lata de molho de tomate",
+        "1/2 lata de água",
+        "1 cubo de caldo de galinha",
+        "1 pitada de açúcar",
+        "sal, pimenta, salsinha a gosto"
+      ],
+      "preparo": [
+        "Almôndegas:",
+        "Junte todos os ingredientes em uma vasilha e misture bem.",
+        "Pegue uma colher de sobremesa como medida e faça as bolinhas (rende em torno de umas 45 unidades).",
+        "Esquente uma panela com 2 a 3 dedos de óleo e frite as almôndegas até que fiquem levemente douradas (dentro poderá ficar crú, pois elas terminarão de cozinhar junto ao molho de tomate e ficarão mais suculentas).",
+        "Reserve-as.",
+        "Molho:",
+        "Refogue a cebola e o alho no óleo.",
+        "Junte o molho de tomate, a água, o caldo de galinha, os temperos a gosto e deixe ferventar em fogo médio.",
+        "Assim que o molho começar a borbulhar, junte as almôndegas (coloque também o caldinho que elas devem ter soltado no recipiente em que ficaram reservadas), tampe a panela e deixe em fogo baixo/médio por mais 5 minutos.",
+        "Coloque em um prato, decore com salsinha desidratada e bom apetite!"
+      ],
+      "id": 3
     }
-
   ]
 }

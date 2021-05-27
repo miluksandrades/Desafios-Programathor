@@ -18,6 +18,10 @@ export class FilmesService {
     return this.http.get(`${this.url}receitas?id=${id}`);
   }
 
+  createReceita(data){
+    return this.http.post(`${this.url}receitas`, data);
+  }
+
   getMeusFilmes(){
     return this.http.get(`${this.url}filmes?situacao=1`);
   }
