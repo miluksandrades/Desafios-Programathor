@@ -5,7 +5,7 @@ Fonte Original: [Flavio Copes](https://flaviocopes.com/sample-app-ideas/)
 #### Desafios:
 - [Desafio 1 - Um aplicativo registrador de peso](https://github.com/miluksandrades/Desafios-Programathor/tree/master/src/app/desafio-one)
 - [Desafio 2 - Um banco de dados de livros](https://github.com/miluksandrades/Desafios-Programathor/tree/master/src/app/desafio-two)
-- [Desafio 3 - Um aplicativo de receitas]()
+- [Desafio 3 - Um aplicativo de receitas](https://github.com/miluksandrades/Desafios-Programathor/tree/master/src/app/desafio-three)
 - [Desafio 4 - Um registrador de contas]()
 - [Desafio 5 - Um registrador de despesas]()
 - [Desafio 6 - Um aplicativo de chat]()
