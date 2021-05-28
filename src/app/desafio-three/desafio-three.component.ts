@@ -27,6 +27,10 @@ export class DesafioThreeComponent implements OnInit {
     this.ingredientes.push(this.ingrediente)
   }
 
+  addPreparo() {
+    this.preparos.push(this.preparo)
+  }
+
   constructor(private api: FilmesService) {
     this.api.getReceitas().subscribe(res => {
       this.receitas = res;

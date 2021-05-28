@@ -85,6 +85,31 @@
         "Coloque em um prato, decore com salsinha desidratada e bom apetite!"
       ],
       "id": 3
+    },
+    {
+      "titulo": "FRICASSÊ DE FRANGO",
+      "tempo": 30,
+      "porcoes": 5,
+      "image": "https://img.itdg.com.br/tdg/images/recipes/000/010/254/294238/294238_original.jpg?mode=crop&width=710&height=400",
+      "ingredientes": [
+        "1 lata de creme de leite",
+        "1 lata de milho verde",
+        "1 copo de requeijão cremoso",
+        "100 g de azeitona sem caroço",
+        "2 peitos de frango desfiados",
+        "200 g de mussarela fatiada",
+        "100 g de batata palha",
+        "1 xícara de água",
+        "1 pitada de sal"
+      ],
+      "preparo": [
+        "Bata no liquidificador o milho, o requeijão, o creme de leite e a água.",
+        "Refogue o creme do liquidificador com o frango desfiado, as azeitonas e o sal até ficar com uma textura espessa.",
+        "Coloque o refogado numa assadeira, cubra com mussarela e espalhe a batata palha por cima.",
+        "Leve ao forno até borbulhar.",
+        "Sirva com arroz branco."
+      ],
+      "id": 4
     }
   ]
 }
