@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { FormArray, FormControl } from '@angular/forms';
 import { FilmesService } from '../services/filmes.service';
 
 @Component({
@@ -18,17 +17,19 @@ export class DesafioThreeComponent implements OnInit {
     image: ''
   }
 
-  public ingrediente: any;
+  public ingrediente = '';
   public ingredientes = [];
   public preparo: any;
   public preparos = [];
 
   addIngrediente() {
     this.ingredientes.push(this.ingrediente)
+    this.ingrediente = '';
   }
 
   addPreparo() {
     this.preparos.push(this.preparo)
+    this.preparo = '';
   }
 
   constructor(private api: FilmesService) {
