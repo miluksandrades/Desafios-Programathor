@@ -11,7 +11,8 @@ import { DesafioTwoComponent } from './desafio-two/desafio-two.component';
 import { HttpClientModule } from '@angular/common/http';;
 import { FilmesService } from './services/filmes.service';
 import { DesafioThreeComponent } from './desafio-three/desafio-three.component';
-import { ReceitaViewComponent } from './desafio-three/receita-view/receita-view.component'
+import { ReceitaViewComponent } from './desafio-three/receita-view/receita-view.component';
+import { DesafioFourComponent } from './desafio-four/desafio-four.component'
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ReceitaViewComponent } from './desafio-three/receita-view/receita-view.
     DashboardComponent,
     DesafioTwoComponent,
     DesafioThreeComponent,
-    ReceitaViewComponent
+    ReceitaViewComponent,
+    DesafioFourComponent
   ],
   imports: [
     BrowserModule,

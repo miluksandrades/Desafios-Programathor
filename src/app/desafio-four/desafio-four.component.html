@@ -1,0 +1,72 @@
+<div class="container-fluid back mb-3">
+  <div class="container">
+    <div class="container pt-3">
+      <div class="row">
+        <div class="col-xl-4 mb-3 text-center">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Bills.reg</h5>
+              <button class="button btn btn-outline-primary mt-4" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">Inserir conta a pagar</button>
+
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Inserir conta</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-outline-primary">Salvar</button>
+                      <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-8 mb-3">
+          <div class="row">
+            <div class="col-xl-6 mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h6 class="h6 card-title">Total a pagar</h6>
+                  <p class="display-6 card-text text-danger text-center mt-4 mb-4">R$3000,00</p>
+                  <div class="container text-center">
+                    <a href="" class="text-danger mt-4">Ver detalhes</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h6 class="h6 card-title">Pagar hoje</h6>
+                  <p class="display-6 card-text text-primary text-center mt-4 mb-4">R$30,00</p>
+                  <div class="container text-center">
+                    <a href="" class="text-primary mt-4">Pagar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h6 class="h6 card-title">Minhas Contas</h6>
+              <div class="container text-center">
+                <canvas baseChart [datasets]="barChartData" [labels]="barChartLabels" [options]="barChartOptions"
+                  [colors]="barColors" [legend]="barChartLegend" [chartType]="barChartType">
+                </canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

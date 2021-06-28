@@ -1,0 +1,23 @@
+.back{
+    color: #5f6061
+}
+
+.btn-outline-primary:hover{
+    background-color: #54a0ff;
+    color: #fff;
+}
+
+.btn-outline-primary{
+    border: 1px solid #54a0ff;
+    color: #54a0ff;
+}
+
+.card{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+    -ms-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+}
+
