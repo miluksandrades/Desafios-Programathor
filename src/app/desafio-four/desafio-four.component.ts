@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ChartDataSets, ChartOptions, ChartType } from 'chart.js';
 import { Label } from 'ng2-charts';
+import { FilmesService } from '../services/filmes.service';
 
 @Component({
   selector: 'app-desafio-four',
@@ -9,7 +10,39 @@ import { Label } from 'ng2-charts';
 })
 export class DesafioFourComponent implements OnInit {
 
-  constructor() { }
+  public contas:any = [];
+  public pagas:any = [];
+  public soma = 0;
+  public somaDoDia = 0;
+
+  constructor(private api: FilmesService) {
+    this.api.getContasPagas().subscribe(res =>{
+      this.pagas = res;
+    })
+    this.api.getContas().subscribe(res =>{
+      this.contas = res;
+
+      var date = new Date();
+      var mes;
+
+      if(date.getUTCMonth() < 10){
+        mes = '0'+(date.getUTCMonth()+1);
+      }
+      var ref = `${date.getUTCFullYear()}-${mes}-${date.getUTCDate()}T00:00`;
+
+      this.contas.forEach(element => {
+        if(element.pago != 1){
+          this.soma+=Number(element.valor);
+        }
+      });
+
+      this.contas.forEach(element =>{
+        if(element.pago != 1 && element.data == ref){
+          this.somaDoDia+=Number(element.valor)
+        }
+      })
+    })
+  }
 
   ngOnInit(): void {
   }

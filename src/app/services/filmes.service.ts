@@ -32,4 +32,11 @@ export class FilmesService {
   createLivro(data){
     return this.http.post(`${this.url}filmes`, data);
   }
+
+  getContas(){
+    return this.http.get(`${this.url}contas`)
+  }
+  getContasPagas(){
+    return this.http.get(`${this.url}contas?pago=1`)
+  }
 }

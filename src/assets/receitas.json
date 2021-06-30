@@ -112,7 +112,6 @@
       "id": 4
     }
   ],
-
   "filmes": [
     {
       "id": 1,
@@ -169,6 +168,72 @@
       "imagem": "https://m.media-amazon.com/images/P/B085PP6Y8P.01._SCLZZZZZZZ_SX500_.jpg",
       "situacao": "1",
       "id": 9
+    }
+  ],
+  "contas": [
+    {
+      "id": 0,
+      "descricao": "Boleto Mays",
+      "empresa": "Case",
+      "valor": 3730.87,
+      "data": "2021-06-30T00:00",
+      "pago": 0
+    },
+    {
+      "id": 1,
+      "descricao": "Boleto Greer",
+      "empresa": "Marshall",
+      "valor": 3496.91,
+      "data": "2021-06-30T00:00",
+      "pago": 0
+    },
+    {
+      "id": 2,
+      "descricao": "Boleto Slater",
+      "empresa": "Hampton",
+      "valor": 3619.87,
+      "data": "2021-01-10T12:05",
+      "pago": 0
+    },
+    {
+      "id": 3,
+      "descricao": "Boleto Avila",
+      "empresa": "Medina",
+      "valor": 3541.54,
+      "data": "2021-01-28T01:50",
+      "pago": 1
+    },
+    {
+      "id": 4,
+      "descricao": "Boleto Merritt",
+      "empresa": "Grimes",
+      "valor": 2995.09,
+      "data": "2021-04-06T09:30",
+      "pago": 1
+    },
+    {
+      "id": 5,
+      "descricao": "Boleto Bradford",
+      "empresa": "Preston",
+      "valor": 2307.32,
+      "data": "2021-04-17T06:36",
+      "pago": 1
+    },
+    {
+      "id": 6,
+      "descricao": "Boleto Holmes",
+      "empresa": "English",
+      "valor": 2769.67,
+      "data": "2021-05-22T01:01",
+      "pago": 1
+    },
+    {
+      "id": 7,
+      "descricao": "Boleto Stephenson",
+      "empresa": "Cole",
+      "valor": 3210.55,
+      "data": "2021-01-02T05:48",
+      "pago": 1
     }
   ]
 }

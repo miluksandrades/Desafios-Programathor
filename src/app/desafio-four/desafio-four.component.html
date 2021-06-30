@@ -2,8 +2,8 @@
   <div class="container">
     <div class="container pt-3">
       <div class="row">
-        <div class="col-xl-4 mb-3 text-center">
-          <div class="card">
+        <div class="col-xl-4 col-md-4 mb-3 text-center">
+          <div class="card mb-3">
             <div class="card-body">
               <h5 class="card-title">Bills.reg</h5>
               <button class="button btn btn-outline-primary mt-4" data-bs-toggle="modal"
@@ -18,25 +18,50 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      ...
+                      <form action="">
+                        <div class="form-group">
+                          <!-- <input type="datetime-local" name="data" id="" class="form-control" [(ngModel)]="data"> -->
+                        </div>
+                        <button class="btn">testar</button>
+                      </form>
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-outline-primary">Salvar</button>
-                      <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancelar</button>
+                      <button type="button" class="btn btn-sm btn-outline-primary">Salvar</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary"
+                        data-bs-dismiss="modal">Cancelar</button>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <div class="card">
+            <div class="card-body text-start">
+              <h6 class="h6 card-title">Contas pagas</h6>
+              <ul class="list-style-none text-start">
+                <li class="d-flex no-block card-body" *ngFor="let item of pagas">
+                  <div>
+                    <p class="m-b-0 font-medium p-0" data-abc="true">{{item.descricao}}</p>
+                    <span class="text-muted pr-3">{{item.empresa}}</span>
+                    <span class="text-muted">{{item.valor}}</span>
+                  </div>
+                  <div class="ml-auto">
+                    <div class="text-right">
+                      <h6 class="text-muted">{{item.data | date: 'dd/MM/yyyy'}}</h6>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="col-xl-8 mb-3">
+        <div class="col-xl-8 col-md-8 mb-3">
           <div class="row">
             <div class="col-xl-6 mb-3">
               <div class="card">
                 <div class="card-body">
                   <h6 class="h6 card-title">Total a pagar</h6>
-                  <p class="display-6 card-text text-danger text-center mt-4 mb-4">R$3000,00</p>
+                  <p class="display-6 card-text text-danger text-center mt-4 mb-4">R${{soma}}</p>
                   <div class="container text-center">
                     <a href="" class="text-danger mt-4">Ver detalhes</a>
                   </div>
@@ -47,7 +72,7 @@
               <div class="card">
                 <div class="card-body">
                   <h6 class="h6 card-title">Pagar hoje</h6>
-                  <p class="display-6 card-text text-primary text-center mt-4 mb-4">R$30,00</p>
+                  <p class="display-6 card-text text-primary text-center mt-4 mb-4">R${{somaDoDia}}</p>
                   <div class="container text-center">
                     <a href="" class="text-primary mt-4">Pagar</a>
                   </div>
