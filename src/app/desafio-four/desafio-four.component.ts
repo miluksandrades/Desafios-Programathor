@@ -11,14 +11,10 @@ import { FilmesService } from '../services/filmes.service';
 export class DesafioFourComponent implements OnInit {
 
   public contas:any = [];
-  public pagas:any = [];
   public soma = 0;
   public somaDoDia = 0;
 
   constructor(private api: FilmesService) {
-    this.api.getContasPagas().subscribe(res =>{
-      this.pagas = res;
-    })
     this.api.getContas().subscribe(res =>{
       this.contas = res;
 

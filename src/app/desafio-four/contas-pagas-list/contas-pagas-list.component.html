@@ -1,0 +1,14 @@
+<ul class="list-group list-group-flush">
+  <li class="list-group-item text-start" *ngFor="let item of pagas">
+    <div class="row">
+      <div class="col text-start">
+        {{item.descricao}}<br>
+        <span class="text-muted">{{item.empresa}}</span><br>
+        <span class="text-muted">R${{item.valor}}</span>
+      </div>
+      <div class="col text-end">
+        <h6 class="h6">{{item.data | date: 'dd/MM/yyyy'}}</h6>
+      </div>
+    </div>
+  </li>
+</ul>

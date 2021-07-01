@@ -12,7 +12,9 @@ import { HttpClientModule } from '@angular/common/http';;
 import { FilmesService } from './services/filmes.service';
 import { DesafioThreeComponent } from './desafio-three/desafio-three.component';
 import { ReceitaViewComponent } from './desafio-three/receita-view/receita-view.component';
-import { DesafioFourComponent } from './desafio-four/desafio-four.component'
+import { DesafioFourComponent } from './desafio-four/desafio-four.component';
+import { ContasPagasListComponent } from './desafio-four/contas-pagas-list/contas-pagas-list.component';
+import { ContasListComponent } from './desafio-four/contas-list/contas-list.component'
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { DesafioFourComponent } from './desafio-four/desafio-four.component'
     DesafioTwoComponent,
     DesafioThreeComponent,
     ReceitaViewComponent,
-    DesafioFourComponent
+    DesafioFourComponent,
+    ContasPagasListComponent,
+    ContasListComponent
   ],
   imports: [
     BrowserModule,
