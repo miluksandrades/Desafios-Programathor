@@ -19,15 +19,19 @@ export class DesafioFourComponent implements OnInit {
       this.contas = res;
 
       var date = new Date();
-      var mes;
+      var mes, dia, ano;
+      ano = date.getUTCFullYear()
 
       if(date.getUTCMonth() < 10){
         mes = '0'+(date.getUTCMonth()+1);
+      } if(date.getUTCDate() < 10){
+        dia = '0'+date.getUTCDate();
       }
-      var ref = `${date.getUTCFullYear()}-${mes}-${date.getUTCDate()}T00:00`;
+      var ref = `${ano}-${mes}-${dia}T00:00`;
+      console.log(ref)
 
       this.contas.forEach(element => {
-        if(element.pago != 1){
+        if(element.pago != 1){          
           this.soma+=Number(element.valor);
         }
       });

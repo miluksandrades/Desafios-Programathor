@@ -175,7 +175,7 @@
       "id": 0,
       "descricao": "Boleto Mays",
       "empresa": "Case",
-      "valor": 3730.87,
+      "valor": 200.87,
       "data": "2021-06-30T00:00",
       "pago": 0
     },
@@ -183,7 +183,7 @@
       "id": 1,
       "descricao": "Boleto Greer",
       "empresa": "Marshall",
-      "valor": 3496.91,
+      "valor": 100.10,
       "data": "2021-06-30T00:00",
       "pago": 0
     },
@@ -191,7 +191,7 @@
       "id": 2,
       "descricao": "Boleto Slater",
       "empresa": "Hampton",
-      "valor": 3619.87,
+      "valor": 90.87,
       "data": "2021-01-10T12:05",
       "pago": 0
     },
@@ -199,7 +199,7 @@
       "id": 3,
       "descricao": "Boleto Avila",
       "empresa": "Medina",
-      "valor": 3541.54,
+      "valor": 100.54,
       "data": "2021-01-28T01:50",
       "pago": 1
     },
@@ -207,7 +207,7 @@
       "id": 4,
       "descricao": "Boleto Merritt",
       "empresa": "Grimes",
-      "valor": 2995.09,
+      "valor": 30.09,
       "data": "2021-04-06T09:30",
       "pago": 1
     },
@@ -215,7 +215,7 @@
       "id": 5,
       "descricao": "Boleto Bradford",
       "empresa": "Preston",
-      "valor": 2307.32,
+      "valor": 10.32,
       "data": "2021-04-17T06:36",
       "pago": 1
     },
@@ -223,7 +223,7 @@
       "id": 6,
       "descricao": "Boleto Holmes",
       "empresa": "English",
-      "valor": 2769.67,
+      "valor": 51.00,
       "data": "2021-05-22T01:01",
       "pago": 1
     },
@@ -231,9 +231,9 @@
       "id": 7,
       "descricao": "Boleto Stephenson",
       "empresa": "Cole",
-      "valor": 3210.55,
-      "data": "2021-01-02T05:48",
-      "pago": 1
+      "valor": 123.55,
+      "data": "2021-07-02T00:00",
+      "pago": 0
     }
   ]
 }
